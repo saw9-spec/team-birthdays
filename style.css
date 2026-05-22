@@ -70,9 +70,11 @@ body {
 }
 
 .character-box {
-    height: 250px;
-    width: 250px;
+    width: 100%; /* Allows it to hold any size animation */
+    height: auto;
     margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: center; /* Forces the animation perfectly to the middle */
     animation: float 4s ease-in-out infinite;
 }
 
