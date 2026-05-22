@@ -28,6 +28,13 @@ const colleaguesData = {
         // Your 4th link
         lottieUrl: "https://lottie.host/f1a6cd3d-a4c3-419f-b760-f6d1a13640a6/ylAfPJUezT.lottie"
     },
+    kirti: {
+        name: "Kirti",
+        role: "Chief of Chill & Team Lead",
+        message: "Happy Birthday, Kirti! Thank you for being the kind of leader who keeps the pressure low, the laughs high, and always has our backs when things get stressful. We promise not to take any of your pranks personally today! Hope your birthday is exactly like the environment you create for our team: completely chill, totally fun, and absolutely amazing.",
+        // Find a fun .lottie link for her and paste it here!
+        lottieUrl: "https://lottie.host/884783c6-5a17-410f-9b03-40c071c02877/QWxO6gILrF.lottie" 
+    },
     default: {
         name: "Teammate",
         role: "The Office Legend",
