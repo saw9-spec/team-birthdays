@@ -74,6 +74,11 @@ giftScreen.addEventListener('click', () => {
     // Show the birthday card container
     mainCard.style.display = 'block';
 
+    // 🔊 PLAY THE SOUND EFFECT! 🔊
+    // Make sure the file name matches exactly what you named your MP3
+    const partySound = new Audio('surprise.mp3');
+    partySound.play();
+
     // 🎉 FIRE THE CONFETTI! 🎉
     confetti({
         particleCount: 150, // Number of confetti pieces
