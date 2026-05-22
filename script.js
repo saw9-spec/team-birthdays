@@ -50,16 +50,9 @@ document.getElementById('message-text').innerText = person.message;
 
 // Inject the Lottie Player dynamically
 // Inject the exact dotLottie-wc Player dynamically with forced sizing
-const characterContainer = document.getElementById('character-container');
-characterContainer.innerHTML = `
-    <dotlottie-wc 
-        src="${person.lottieUrl}" 
-        style="width: 250px; height: 250px; display: block; margin: 0 auto;" 
-        autoplay 
-        loop>
-    </dotlottie-wc>
-`;
-
+// Grab the player from the HTML and simply update its source link
+const mascotPlayer = document.getElementById('mascot-player');
+mascotPlayer.setAttribute('src', person.lottieUrl);
 // 5. The Gift Box Logic
 const giftScreen = document.getElementById('gift-screen');
 const mainCard = document.getElementById('main-card');
