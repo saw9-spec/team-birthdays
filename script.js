@@ -58,6 +58,7 @@ const giftScreen = document.getElementById('gift-screen');
 const mainCard = document.getElementById('main-card');
 
 // Wait for the user to click the gift
+// Wait for the user to click the gift
 giftScreen.addEventListener('click', () => {
     
     // Hide the gift box
@@ -65,6 +66,14 @@ giftScreen.addEventListener('click', () => {
     
     // Show the birthday card container
     mainCard.style.display = 'block';
+
+    // 🎉 FIRE THE CONFETTI! 🎉
+    confetti({
+        particleCount: 150, // Number of confetti pieces
+        spread: 80,         // How wide they burst
+        origin: { y: 0.6 }, // Starts the burst slightly below the center
+        colors: ['#ffb6ff', '#ffd700', '#ffffff', '#ff6b6b'] // Matches your theme
+    });
 
     // Trigger the GSAP Animations for the main card container
     gsap.fromTo(mainCard, 
