@@ -44,7 +44,7 @@ const colleaguesData = {
     pratap: {
         name: "Pratap",
         role: "The Friendly Neighbourhood Mandarin Maestro",
-        message: "生日快乐, Pratap! It takes a true expert to handle complex Chinese language testing without breaking a sweat. We love that you are as rich in heart as you are in talent, yet never feel the need to flex your superpowers. Hope you have an amazing birthday (and maybe a winning game of table tennis)!",
+        message: "生日快乐, Pratap! It takes a true expert to handle complex Chinese language testing without breaking a sweat. We love that you are as "RICH" in heart as you are in talent, yet never feel the need to flex your superpowers. Hope you have an amazing birthday (and maybe a winning game of table tennis)!",
         lottieUrl: "https://lottie.host/fb015779-ddfb-4c78-b801-53ed8ae6d23a/d4DfBMCB0R.lottie" 
     },
     default: {
