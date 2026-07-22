@@ -37,13 +37,13 @@ const colleaguesData = {
     },
     samara: {
         name: "Samara",
-        role: "CEO of App Compat (Chief Entertainment Officer)",
+        role: "✨CEO of App Compat (Chief Entertainment Officer)✨",
         message: "Grattis på födelsedagen!, Samara! From hosting our team outings and dropping flawless Swedish to cooking up an endless number of incredible dishes, you truly are the ultimate people person. Your energy keeps the team entertained, and your foodie soul keeps things delicious. Have a fantastic celebration!",
         lottieUrl: "https://lottie.host/b6fec7c9-ad9f-423f-8528-ea3bf71bca58/Jzr39oew3t.lottie" 
     },
     pratap: {
         name: "Pratap",
-        role: "The Maratha Mandarin!",
+        role: "🏮The Maratha Mandarin!🏮",
         message: "生日快乐, Pratap! It takes a true expert to handle complex Chinese language testing without breaking a sweat. We love that you are as 'RICH' in heart as you are in talent, yet never feel the need to flex your superpowers. Hope you have an amazing birthday (and maybe a winning game of table tennis)!",
         lottieUrl: "https://lottie.host/fb015779-ddfb-4c78-b801-53ed8ae6d23a/d4DfBMCB0R.lottie" 
     },
